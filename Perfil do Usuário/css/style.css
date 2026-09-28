@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #8fc07c,
+        #757c75
+    );
+
+    font-family: Monaco;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    margin: 0;
+}
+.Perfil{
+
+    width:350px;
+    margin:60px auto;
+    background:linear-gradient(
+        135deg,
+        #e9ece794,
+    #f2f6f2);
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+img { 
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+h1{
+    color: #1e3922;
+}
+h3{
+    color: #1e3922;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+a{
+    color: #72a45e;
+}
+button{
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #72a45e;
+    color: white;
+    font-size: 15px;
+}
